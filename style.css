@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #e0f7fa;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#gameCanvas {
+  display: block;
+  background: #fffde7;
+  border: 2px solid #333;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  /* Remove margin and center with flexbox */
+}
